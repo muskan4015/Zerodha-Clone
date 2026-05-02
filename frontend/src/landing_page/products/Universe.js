@@ -1,4 +1,5 @@
 import React from "react";
+import { DASHBOARD_URL } from "../dashboardUrl";
 
 function Universe() {
   return (
@@ -42,9 +43,9 @@ function Universe() {
             Insurance
           </p>
         </div>
-        <button className="p-2 btn btn-primary fs-5 mb-5" style={{ width: "15%", margin: "0 auto" }}>
+        <a href={`${DASHBOARD_URL}/login`} className="p-2 btn btn-primary fs-5 mb-5" style={{ width: "15%", margin: "0 auto" }}>
           Sign up now
-        </button>
+        </a>
       </div>
     </div>
   );

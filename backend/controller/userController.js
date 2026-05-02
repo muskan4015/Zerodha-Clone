@@ -45,7 +45,7 @@ module.exports.register = async (req, res) => {
     await newUser.save();
 
     const token = createToken(newUser.email);
-    res.status(200).json({ token });
+    res.status(200).json({ token, username: newUser.username, email: newUser.email });
   } catch (error) {
     console.error(error);
     if (error.message === "JWT secret is missing") {
@@ -82,7 +82,7 @@ module.exports.login = async (req, res) => {
     }
 
     const token = createToken(user.email);
-    res.status(200).json({ token });
+    res.status(200).json({ token, username: user.username, email: user.email });
   } catch (error) {
     console.error(error);
     if (error.message === "JWT secret is missing") {

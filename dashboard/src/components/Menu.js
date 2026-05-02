@@ -5,7 +5,9 @@ import { useAuth } from "../hooks/useAuth";
 const Menu = () => {
   const [selectedMenu, SetSelectedMenu] = useState(0);
   const [isProfileDropdownOpen, SetIsProfileDropdownOpen] = useState(false);
-  const { logout } = useAuth();
+  const { logout, profile } = useAuth();
+  const displayName = profile?.username || profile?.email || "User";
+  const avatarText = displayName.slice(0, 2).toUpperCase();
 
   const handleMenuClick = (index) => {
     SetSelectedMenu(index);
@@ -61,8 +63,8 @@ const Menu = () => {
         </ul>
         <hr />
         <div className="profile" onClick={handleProfileClick}>
-          <div className="avatar">ZU</div>
-          <p className="username">USERID</p>
+          <div className="avatar">{avatarText}</div>
+          <p className="username">{displayName}</p>
           {isProfileDropdownOpen ? (
             <div className="profile-dropdown">
               <button type="button" onClick={handleLogoutClick}>

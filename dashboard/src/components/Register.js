@@ -22,7 +22,7 @@ const defaultTheme = createTheme();
 export default function Register() {
   let [alert, setAlert] = React.useState({ st: false, msg: "" });
   const navigate = useNavigate();
-  const { login, user } = useAuth();
+  const { user } = useAuth();
 
   React.useEffect(() => {
     if (user) {
@@ -52,7 +52,7 @@ export default function Register() {
         },
       })
       .then(async (res) => {
-        await login(res.data.token);
+        navigate("/login", { replace: true });
       })
       .catch((error) => {
         if (error.response) {

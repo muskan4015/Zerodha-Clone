@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { DASHBOARD_URL } from "./dashboardUrl";
 
 function Navbar() {
   return (
@@ -15,7 +16,7 @@ function Navbar() {
           <form className="d-flex" role="search">
             <ul className="navbar-nav mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="https://zerodha-clone-dashboard.vercel.app/register">
+                <a className="nav-link active" aria-current="page" href={`${DASHBOARD_URL}/login`}>
                   Register
                 </a>
               </li>
