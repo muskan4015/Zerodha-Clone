@@ -23,40 +23,40 @@ function Footer() {
           </div>
           <div className="col footer-nav">
             <p>Company</p>
-            <a href="">About</a>
+            <a href="/">About</a>
             <br />
-            <a href="">Products</a>
+            <a href="/">Products</a>
             <br />
-            <a href="">Pricing</a>
+            <a href="/">Pricing</a>
             <br />
-            <a href="">Referral programme</a>
+            <a href="/">Referral programme</a>
             <br />
-            <a href="">Careers</a>
+            <a href="/">Careers</a>
             <br />
-            <a href="">Zerodha.tech</a>
+            <a href="/">Zerodha.tech</a>
             <br />
-            <a href="">Press & media</a>
+            <a href="/">Press & media</a>
             <br />
-            <a href="">Zerodha Cares (CSR)</a>
+            <a href="/">Zerodha Cares (CSR)</a>
             <br />
           </div>
           <div className="col footer-nav">
             <p>Support</p>
-            <a href="">Contact us</a>
+            <a href="/">Contact us</a>
             <br />
-            <a href="">Support portal</a>
+            <a href="/">Support portal</a>
             <br />
-            <a href="">Z-Connect blog</a>
+            <a href="/">Z-Connect blog</a>
             <br />
-            <a href="">List of charges</a>
+            <a href="/">List of charges</a>
             <br />
-            <a href="">Downloads & resources</a>
+            <a href="/">Downloads & resources</a>
             <br />
           </div>
           <div className="col footer-nav">
             <p>Account</p>
-            <a href="">Open an account</a>
-            <a href="">Fund transfer</a>
+            <a href="/">Open an account</a>
+            <a href="/">Fund transfer</a>
           </div>
         </div>
         <div className="mt-5 text-muted" style={{ fontSize: "14px" }}>
@@ -90,3 +90,4 @@ function Footer() {
 }
 
 export default Footer;
+

@@ -6,7 +6,7 @@ function Brokerage() {
       <div className="row p-5 mt-5 text-center border-top">
         <div className="col-8 p-4">
           <h3 className="fs-5 mb-4">
-            <a href="#" style={{ textDecoration: "none", color: "#387ed1" }}>
+            <a href="/pricing" style={{ textDecoration: "none", color: "#387ed1" }}>
               Brokerage Calculator
             </a>
           </h3>
@@ -21,7 +21,7 @@ function Brokerage() {
         </div>
         <div className="col-4 p-4">
           <h3 className="fs-5">
-            <a href="#" style={{ textDecoration: "none", color: "#387ed1" }}>
+            <a href="/pricing" style={{ textDecoration: "none", color: "#387ed1" }}>
               List Of charges
             </a>
           </h3>
