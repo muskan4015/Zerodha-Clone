@@ -63,7 +63,7 @@ Follow these steps to set up the project in your local environment:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Jenil-Desai/zerodha-clone.git
+   git clone https://github.com/muskan4015/zerodha-clone.git
    ```
 2. Install dependencies for Backend, Frontend, and Dashboard.
 
@@ -84,7 +84,6 @@ Follow these steps to set up the project in your local environment:
 
 3. Configure environment variables for the backend. Create `.env` in the `backend` folder with following :
    ```env
-   PORT=3000
    MONGO_URL="Your Mongo Database Url"
    secret="Your Unique JWT Secret"
    ```
@@ -117,8 +116,8 @@ Explore the unique features available in this application:
 
 ## 🔗 Demo & Screenshots
 
-- [Demo](https://zerodha-clone-frontend.vercel.app)
-- UserName : Demo
+- [Demo](https://zerodha-clone-4ptl.vercel.app/)
+- UserName : demo@gmail
 - Password : Demo
 
 | Mock Up                            | Home Page                             | Dashboard                              | About Page                         |
@@ -136,12 +135,6 @@ Explore the unique features available in this application:
 We’d like to thank the following contributors and resources:
 
 - **[Apna College's Delta 3.0 Course](https://www.apnacollege.in/)** - Course resource.
-
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
 
 ---
 
